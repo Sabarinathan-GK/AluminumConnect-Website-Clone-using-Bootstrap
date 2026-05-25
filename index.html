@@ -11,36 +11,38 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid m-3">
-            <div class="brand-container">
-                <a href="#home" class="navbar-brand">ALUMINUMCONNECT</a>
-            </div>
-            <div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item">
-                            <a href="#home" class="nav-link text-dark" aria-current="page">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#materials" class="nav-link" aria-current="page">Materials</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#homeowners" class="nav-link" aria-current="page">Homeowners</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contractors" class="nav-link" aria-current="page">Contractors</a>
-                        </li>
-                    </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid m-3">
+                <div class="brand-container">
+                    <a href="#home" class="navbar-brand">ALUMINUMCONNECT</a>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a href="#home" class="nav-link text-dark" aria-current="page">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#materials" class="nav-link" aria-current="page">Materials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#homeowners" class="nav-link" aria-current="page">Homeowners</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contractors" class="nav-link" aria-current="page">Contractors</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
-    </nav>
+            </div>
+        </nav>
+    </header>
     <!-- Home -->
     <div class="home" id="home">
         <div class="d-flex flex-column container-fluid text-center p-5">
@@ -90,7 +92,8 @@
                 </div>
             </div>
             <div>
-                <button class="btn my-3 p-2 bc-orangered"><a href="#contact" class="text-decoration-none text-dark">Constact Us Now</a></button>
+                <button class="btn my-3 p-2 bc-orangered"><a href="#contact"
+                        class="text-decoration-none text-dark">Constact Us Now</a></button>
                 <div class="d-lg-flex flex-lg-row d-md-flex flex-md-column align-items-center justify-content-center">
                     <p class="p-4">Homeowners welcome</p>
                     <p class="p-4">Contractors welcome</p>
@@ -285,7 +288,7 @@
         <div class="container-fluid d-flex p-3  align-items-center justify-content-evenly">
             <div>
                 <img src="https://images.unsplash.com/photo-1582540730843-f4418d96ccbe?q=80&w=1246&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                    alt="mat1" class="material-image" width="400px" height="300px">
+                    alt=" mat1" class="material-image" width="400px" height="300px">
             </div>
             <div>
                 <h1>For Contractor</h1>
@@ -430,7 +433,8 @@
                             <input type="number" name="customerPhone" id="Phone" required>
                         </div>
                         <div class="mail m-2">
-                            <h5 class="p-2"><label for="cusMail">Your Email<span class="text-danger">*</span></label></h5>
+                            <h5 class="p-2"><label for="cusMail">Your Email<span class="text-danger">*</span></label>
+                            </h5>
                             <input type="mail" name="customerMail" id="mail" required>
                         </div>
                     </div>
@@ -446,63 +450,66 @@
                         <option value="question" class="dropdown-item">General Question</option>
                     </select>
                     <div class="d-flex align-items-center justify-content-evenly m-3">
-                    <h5><label for="message">Your Message</label></h5>
-                    <textarea name="message" id="message" rows="3" col="10"></textarea>
+                        <h5><label for="message">Your Message</label></h5>
+                        <textarea name="message" id="message" rows="3" col="10"></textarea>
                     </div>
-                    <button type="submit" class="bc-bluepink p-2 m-3" onclick="validate()"><h5>📩Send Message</h5></button>
+                    <button type="submit" class="bc-bluepink p-2 m-3" onclick="validate()">
+                        <h5>📩Send Message</h5>
+                    </button>
                 </form>
             </div>
         </div>
     </section>
     <!-- footer -->
-    <div class="bg-primary-subtle">
-        <div class="container-fluid d-flex flex-column d-md-flex flex-md-row justify-content-between">
-            <div class="p-4">
-                <h2>ALUMINUMCONNECT</h2>
-                <p>Your trusted partner for premium aluminum products,<br>
-                    professional installation services.</p>
-                <span class="bc-orangered p-2">38 Years . Residential & Commercial</span>
+    <footer>
+        <div class="bg-primary-subtle">
+            <div class="container-fluid d-flex flex-column d-md-flex flex-md-row justify-content-between">
+                <div class="p-4">
+                    <h2>ALUMINUMCONNECT</h2>
+                    <p>Your trusted partner for premium aluminum products,<br>
+                        professional installation services.</p>
+                    <span class="bc-orangered p-2">38 Years . Residential & Commercial</span>
+                </div>
+                <div class="p-4">
+                    <h4>Quick Links</h4>
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#materials" class="nav-link" aria-current="page">Materials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#homeowners" class="nav-link" aria-current="page">Homeowners</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contractors" class="nav-link" aria-current="page">Contractors</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="p-4">
+                    <h4>Contact Info</h4>
+                    <p>(975)-094-8416</p>
+                    <p>info@aluminumconnect.com</p>
+                </div>
+                <div class="p-4">
+                    <h4>Business Hours</h4>
+                    <p>Monday - Friday : 8:00 AM - 6:00 PM</p>
+                    <p>Saturday : 8:00 AM - 6:00 PM</p>
+                    <p>Sunday : Closed</p>
+                </div>
             </div>
-            <div class="p-4">
-                <h4>Quick Links</h4>
-                <ul class="navbar-nav ">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link" aria-current="page">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#materials" class="nav-link" aria-current="page">Materials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#homeowners" class="nav-link" aria-current="page">Homeowners</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contractors" class="nav-link" aria-current="page">Contractors</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="p-4">
-                <h4>Contact Info</h4>
-                <p>(975)-094-8416</p>
-                <p>info@aluminumconnect.com</p>
-            </div>
-            <div class="p-4">
-                <h4>Business Hours</h4>
-                <p>Monday - Friday : 8:00 AM - 6:00 PM</p>
-                <p>Saturday : 8:00 AM - 6:00 PM</p>
-                <p>Sunday : Closed</p>
+            <hr>
+            <div
+                class="d-flex flex-column d-md-flex flex-md-row justify-content-between text-center align-items-center p-4">
+                <h5 class="px-1">2023 ALUMINUMCONNECT. All rights reserved.</h5>
+                <div class="d-flex px-1">
+                    <h5 class="mx-4">Privacy Policy</h5>
+                    <h5>Terms of Service</h5>
+                </div>
             </div>
         </div>
-        <hr>
-        <div
-            class="d-flex flex-column d-md-flex flex-md-row justify-content-between text-center align-items-center p-4">
-            <h5 class="px-1">2023 ALUMINUMCONNECT. All rights reserved.</h5>
-            <div class="d-flex px-1">
-                <h5 class="mx-4">Privacy Policy</h5>
-                <h5>Terms of Service</h5>
-            </div>
-        </div>
-    </div>
-
+    </footer>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
