@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    background: url(background.mp4);
+}
+
+.bc-bluegreen{
+    background : linear-gradient( 90deg, rgb(13, 248, 13), skyblue);
+    border-radius: 10px;
+}
+
+.bc-orangered{
+    background: linear-gradient(90deg, rgb(238, 119, 50), rgb(194, 53, 53));
+    border-radius: 10px;
+}
+
+.bc-bluepink{
+    background: linear-gradient(90deg, rgb(58, 177, 224), rgb(216, 69, 196));
+    border-radius: 10px;
+}
+
+.home{
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1500004621732-74cd4ad4d53e?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: cover;
+    background-repeat: round;
+}
+
+.box{
+    border: 2px black solid;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding: 20px;
+}
+
+body{
+    background-color: rgba(219, 213, 213, 0.37);
+}
+
+.tc-bluepink{
+    text-align: center;
+    font-weight: 200px;
+    background: #121FCF;
+    background: linear-gradient(90deg, #121FCF 0%, #CF1512 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cardhover{
+    margin : 40px;
+}
+
+.cardhover:hover{
+    background-color: beige;
+    margin-top : 30px;
+    transition-delay: 0.02s;
+    
+}
+
+.product-spec{
+    background-color: white;
+    color: rgba(73, 72, 72, 0.473);
+    font-weight: 200px;
+}
+
+.product-spec:hover{
+    background-color: rgba(100, 87, 87, 0.514);
+    color: white;
+}
+
+input , select{
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 20px;
+}
